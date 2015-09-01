@@ -1,0 +1,17 @@
+
+/* https://bcs-web-dev-03.is.berkeley.edu:8443/psc/bcsdev/EMPLOYEE/HRMS/c/CC_PORTFOLIO.SS_CC_PERS_PHONE.GBL?ucFrom=CalCentral&ucFromLink=https://calcentral.berkeley.edu */
+.uc-calcentral-header-added {
+  background: #fff;
+}
+.uc-calcentral-header-added {
+  #SS_CC_PERS_PHONE {
+    .PSPAGECONTAINER[role="presentation"] {
+      > tbody > tr {
+        &:nth-child(2), &:nth-last-child(2) {
+          display: none;
+          background: #555;
+        }
+      }
+    }
+  }
+}
